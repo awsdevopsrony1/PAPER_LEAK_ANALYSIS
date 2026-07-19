@@ -63,12 +63,6 @@ The project follows a 5-stage end-to-end analytics pipeline:
 - 🏆 Top 5 States by Leak Incidents
 - 🔍 Interactive slicers for Year and Conducting Body Type
 
-<p align="center">
-  <img src="dashboard.png" alt="Power BI Dashboard" width="800"/>
-</p>
-
-> ⚠️ **Note:** Upload a dashboard screenshot named `dashboard.png` to the root of this repo (export from Power BI: File → Export → Image, or a screen capture) for this image to display.
-
 ---
 
 ## 🔑 Key Insights
@@ -100,7 +94,6 @@ PAPER_LEAK_ANALYSIS/
 ├── paper_leak.ipynb               # Python data cleaning notebook
 ├── POWER_BI_DASHBOARAD.pbix       # Power BI dashboard file
 ├── Project Workflow.png           # Workflow diagram
-├── dashboard.png                  # Dashboard screenshot (add this)
 └── README.md
 ```
 
