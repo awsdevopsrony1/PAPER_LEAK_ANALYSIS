@@ -31,7 +31,7 @@ The project follows a 5-stage end-to-end analytics pipeline:
 | **5. Insights & Reporting** | Derived trend analysis, state-wise insights, and key recommendations | Power BI / Report |
 
 <p align="center">
-  <img src="workflow.png" alt="Project Workflow" width="800"/>
+  <img src="Project%20Workflow.png" alt="Project Workflow" width="800"/>
 </p>
 
 ---
@@ -67,6 +67,8 @@ The project follows a 5-stage end-to-end analytics pipeline:
   <img src="dashboard.png" alt="Power BI Dashboard" width="800"/>
 </p>
 
+> ⚠️ **Note:** Upload a dashboard screenshot named `dashboard.png` to the root of this repo (export from Power BI: File → Export → Image, or a screen capture) for this image to display.
+
 ---
 
 ## 🔑 Key Insights
@@ -91,22 +93,14 @@ The project follows a 5-stage end-to-end analytics pipeline:
 ## 📁 Repository Structure
 
 ```
-india-exam-paper-leak-analysis/
+PAPER_LEAK_ANALYSIS/
 │
-├── data/
-│   ├── raw_data.csv               # Raw uncleaned dataset
-│   └── cleaned_data.csv           # Cleaned dataset (post Python processing)
-│
-├── notebooks/
-│   └── data_cleaning.ipynb        # Python data cleaning script/notebook
-│
-├── dashboard/
-│   └── exam_leak_dashboard.pbix   # Power BI dashboard file
-│
-├── images/
-│   ├── dashboard.png              # Dashboard screenshot
-│   └── workflow.png               # Workflow diagram
-│
+├── Paper_leaks_India.csv          # Raw dataset
+├── Paper_Leaks_Clean.csv          # Cleaned dataset (post Python processing)
+├── paper_leak.ipynb               # Python data cleaning notebook
+├── POWER_BI_DASHBOARAD.pbix       # Power BI dashboard file
+├── Project Workflow.png           # Workflow diagram
+├── dashboard.png                  # Dashboard screenshot (add this)
 └── README.md
 ```
 
@@ -116,10 +110,10 @@ india-exam-paper-leak-analysis/
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/<your-username>/india-exam-paper-leak-analysis.git
+   git clone https://github.com/awsdevopsrony1/PAPER_LEAK_ANALYSIS.git
    ```
-2. Open `notebooks/data_cleaning.ipynb` to review the data cleaning process
-3. Open `dashboard/exam_leak_dashboard.pbix` in **Power BI Desktop** to explore the interactive dashboard
+2. Open `paper_leak.ipynb` to review the data cleaning process
+3. Open `POWER_BI_DASHBOARAD.pbix` in **Power BI Desktop** to explore the interactive dashboard
 4. Use the **Year** and **Conducting Body Type** filters to drill into specific insights
 
 ---
@@ -142,4 +136,3 @@ india-exam-paper-leak-analysis/
 ---
 
 ⭐ If you found this project useful, consider giving it a star on GitHub!
-
