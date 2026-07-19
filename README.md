@@ -122,9 +122,9 @@ PAPER_LEAK_ANALYSIS/
 
 ## 👤 Author
 
-**[Your Name]**
-📧 [your.email@example.com]
-🔗 [LinkedIn](#) | [Portfolio](#)
+**[Sourabh Bhattacharay]**
+📧 [awsdevopsbhattacharya@gmail.com]
+🔗 [www.linkedin.com/in/sourabh-bhattacharya-54b5bb151]
 
 ---
 
